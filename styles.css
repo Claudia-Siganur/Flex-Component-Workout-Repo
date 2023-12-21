@@ -64,9 +64,9 @@ footer {
 }
 
 .flex-on-children .bigger {
-flex: 3;
+  flex: 3;
 }
 
-/*.flex-on-children .biggest {
-    flex: 4;
+.flex-on-children .biggest {
+  flex: 3;
 }
