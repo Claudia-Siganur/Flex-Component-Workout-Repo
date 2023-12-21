@@ -7,39 +7,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header>
+      <h1>Flex Examples</h1>
+    </header>
     <main>
       <section>
         <h1>No flex on the children</h1>
-        <div>
-          <article>1</article>
-          <article>2</article>
-          <article>3</article>
+        <div class="flex-container">
+          <article class="flex-item">1</article>
+          <article class="flex-item">2</article>
+          <article class="flex-item">3</article>
         </div>
       </section>
       <section>
         <h1>Equally spaced</h1>
-        <div>
-          <article>1</article>
-          <article>2</article>
-          <article>3</article>
+        <div class="flex-container flex-on-children">
+          <article class="flex-item">1</article>
+          <article class="flex-item">2</article>
+          <article class="flex-item">3</article>
         </div>
       </section>
       <section>
         <h1>One element bigger</h1>
-        <div>
-          <article>1</article>
-          <article>2</article>
-          <article>3</article>
+        <div class="flex-container flex-on-children">
+          <article class="flex-item bigger">1</article>
+          <article class="flex-item">2</article>
+          <article class="flex-item">3</article>
         </div>
       </section>
       <section>
         <h1>One element bigger, one even bigger!</h1>
-        <div>
-          <article>1</article>
-          <article>2</article>
-          <article>3</article>
+        <div flex="flex-container flex-on-children">
+          <article class="flex-item">1</article>
+          <article class="flex-item biggest">2</article>
+          <article class="flex-item">3</article>
         </div>
       </section>
     </main>
   </body>
+  <footer>&copy 2023 ACME</footer>
 </html>
